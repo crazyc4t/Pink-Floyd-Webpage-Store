@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Permanent+Marker&display=swap');
+
+/* {
+    box-sizing: border-box;
+    font-family: 'Bitter', serif;
+    font-family: 'Permanent Marker', cursive;
+} */
+
+html, body{
+    margin: 0%;
+    padding: 0%;
+}
+
+.nav ul{
+    margin: 0%;
+}
+.nav li {
+    display: inline;
+    align-self: center;
+
+}
+
+.nav a {
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: black;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    background-color: aliceblue;
+    opacity: 0.6;
+}
+
+.nav h1 {
+    padding-left: 40px;
+}
+
+.main-nav {
+    text-align: center;
+    border-bottom: 2px solid black;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 1.1em;
+
+}
+
+.main {
+    margin-top: 50px;
+    box-sizing: border-box;
+    font-family: 'Bitter', serif;
+}
+
+
+.first {
+    margin-top: 140px;
+    box-sizing: border-box;
+    font-family: 'Bitter', serif;
+    margin-left: 5px;
+}
+
+.main-header {
+    background-image: url(images/navbar.jfif);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.band-name {
+    text-align: center;
+    margin: 0;
+    font-size: 3em;
+
+}
+
+.bandabout {
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Permament Marker', cursive;
+}
+
+.aboutp {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 5px;
+
+}
+
+.imgabout {
+    border-radius: 50px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+.main-footer {
+
+    bottom: 0%;
+    width: 100%;
+    background-color: black;
+    padding: .25em 0;
+}
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+
+}
+
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+
+.footer-nav li {
+    padding: 0.5 em;
+
+}
+
+.footer-nav img {
+    width: 30px;
+    height: 30px;
+}
+
+.tourword {
+    font-family: 'Permament Marker' cursive;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+}
+
+.tour-row {
+    border-bottom: 1px solid black;
+    padding-bottom: 1em;
+    margin-top: 1em;
+}
+
+.tour-item {
+    padding-right: .5em;
+    display: inline-block;
+}
+
+.tour-city {
+    width: 24%;
+}
+
+.tour-arena {
+    width: 42%;
+}
+
+.tour-btn {
+    max-width: 19%;
+    background-color:cornflowerblue ;
+    border: none;
+    border-radius: 1em;
+    font-weight: bold;
+
+}
+
+.shop-item {
+    margin: 30px;
+}
+
+.shop-item-title {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.shop-item-image {
+    height: 250px;
+    align-self: center;
+
+}
+
+.shop-item-details {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.shop-item-price {
+    flex-grow: 1;
+    color: #333;
+}
+
+.shop-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.tour-btnm {
+    max-width: 19%;
+    background-color:cornflowerblue ;
+    border: none;
+    border-radius: 1em;
+    font-weight: bold;
+    margin-left: 45%;
+
+}
+
+.made-by {
+  color: white;
+  font-family: 'Permanent Marker', cursive;
+  font-size: x-large;
+  margin-left: 4.5%
+}
+
+.dark-side {
+  margin-left: 10%
+}
+
+
+.pompeii {
+    
+}
